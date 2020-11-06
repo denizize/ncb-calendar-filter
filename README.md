@@ -1,6 +1,7 @@
 ## Filtering Google Script for ncb Calendar
 This script gathers events from a shared calendar (for me it is ncb calendar), filters them and copies them into a private calendar.
-**Steps for decluttering the events in the shared google calendar:**
+
+## Steps for decluttering the events in the shared google calendar:
  - Create a calendar of your own in google calendars into which you will fetch events from shared ncb calendar
  - Get the id of your own calendar and place it in the field `<your-filtered-new-calendar-ID>` in both functions
  - Get the id of the shared ncb calendar and place it in the field `<shared-ncb-calendar-ID>` in both functions
@@ -8,7 +9,7 @@ This script gathers events from a shared calendar (for me it is ncb calendar), f
  - Go to https://www.google.com/script/start/ and login
  - Copy the script you have and run the `filterNcb` function, voilà!
 
-###What more...
+### What more...
 
 You can select the period you want to get the events by `monthsBefore` and `monthsLater` which is the number of months before and after the current date.
 
