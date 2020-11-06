@@ -40,8 +40,6 @@ function filterNcb(ncbCal, fullSync) {
       //that was synced before (hence: oldEvent)
       var oldEvent = filteredCal.getEventsForDay(start, {search : title});
       
-      Logger.log('%s, %s', oldEvent.length, oldEvent[0]);
-      
       add = true
       //if one-on-one meeting but not with me; exclude
       if (title.includes(namesExclude) && !(title.includes(namesInclude))) {
